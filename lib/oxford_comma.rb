@@ -9,7 +9,8 @@ end
 
 def oxford_comma(array)
 
-
+if array.length == l
+  
 last_value = "and " + array.last
 array.pop
 array.join(", ")
