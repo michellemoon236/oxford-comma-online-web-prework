@@ -1,8 +1,8 @@
 def oxford_comma(array)
 
-if array.length == l
+if array.size == 1
   array
-elsif array.length == 2 
+elsif array.size == 2 
   last_value = "and " + array.last
   array.pop
   array << last_value
