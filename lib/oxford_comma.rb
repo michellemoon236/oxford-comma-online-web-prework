@@ -1,7 +1,7 @@
 def oxford_comma(array)
 
 if array.size == 1
-  array
+  puts array
 elsif array.size == 2 
   last_value = "and " + array.last
   array.pop
